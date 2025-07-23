@@ -325,7 +325,7 @@ export const projects = [
     image:
       "https://res.cloudinary.com/djpu5v34s/image/upload/v1753254490/Screenshot_2025-04-10_191544_nfrrb6.png",
     tags: ["Angular", "Node js", "MongoDB", "LLM" , "Prompt Engineering" , "Adobe API", "Langchain" , "RAG", "AWS" , "Docker" , "CI/CD"],
-    category: "web app",
+    category: "machine learning",
     github: "https://github.com/IT21251900/LMS-research",
     webapp: "https://lms-research.vercel.app/",
   },
@@ -358,7 +358,7 @@ export const projects = [
     image:
       "https://res.cloudinary.com/djpu5v34s/image/upload/v1753254707/fronetnd_application_early_blight_disease_classification_inxvhf.png",
     tags: ["Python", "Local Storage", "Keras", "TensorFlow", "React", "Fast API"],
-    category: "web app",
+    category: "machine learning",
     github: "https://github.com/IT21251900/DL-Project",
     webapp: "",
   },
