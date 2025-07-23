@@ -129,7 +129,7 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm('service_portfolio_123', 'template_uxd6uo3', form.current, 'PLngsttrqz7VyGeb0')
+      .sendForm(process.env.REACT_APP_EMAILJS_SERVICE_ID, process.env.REACT_APP_EMAILJS_TEMPLATE_ID, form.current, process.env.REACT_APP_EMAILJS_PUBLIC_KEY)
       .then(() => {
         setOpen(true);
         form.current.reset();
