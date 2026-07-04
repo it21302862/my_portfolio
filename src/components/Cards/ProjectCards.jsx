@@ -122,28 +122,79 @@ const Avatar = styled.img`
     border: 3px solid ${({ theme }) => theme.card};
 `
 
-const ProjectCards = ({project,setOpenModal}) => {
+// const ProjectCards = ({project,setOpenModal}) => {
+//     return (
+//         <Card onClick={() => setOpenModal({state: true, project: project})}>
+//             <Image src={project.image}/>
+//             <Tags>
+//                 {project.tags?.map((tag, index) => (
+//                 <Tag>{tag}</Tag>
+//                 ))}
+//             </Tags>
+//             <Details>
+//                 <Title>{project.title}</Title>
+//                 <Date>{project.date}</Date>
+//                 <Description>{project.description}</Description>
+//             </Details>
+//             <Members>
+//                 {project.member?.map((member) => (
+//                     <Avatar src={member.img}/>
+//                 ))}
+//             </Members>
+//             {/* <Button>View Project</Button> */}
+//         </Card>
+//     )
+// }
+
+const ProjectCards = ({ project, setOpenModal }) => {
+    if (!project) return null;
+
     return (
-        <Card onClick={() => setOpenModal({state: true, project: project})}>
-            <Image src={project.image}/>
+        <Card onClick={() => setOpenModal({ state: true, project })}>
+
+            {/* MEDIA SECTION */}
+            {project.mediaType === "video" ? (
+                <video
+                    src={project.image}
+                    muted
+                    loop
+                    playsInline
+                    className="w-full h-[180px] object-cover rounded-lg"
+                />
+            ) : (
+                <img
+                    src={project.image}
+                    alt={project.title || "project"}
+                    className="w-full h-[180px] object-cover rounded-lg"
+                />
+            )}
+
+            {/* TAGS (SAFE) */}
             <Tags>
-                {project.tags?.map((tag, index) => (
-                <Tag>{tag}</Tag>
+                {(project.tags || []).map((tag, index) => (
+                    <Tag key={`${tag}-${index}`}>{tag}</Tag>
                 ))}
             </Tags>
+
+            {/* DETAILS */}
             <Details>
                 <Title>{project.title}</Title>
                 <Date>{project.date}</Date>
                 <Description>{project.description}</Description>
             </Details>
+
+            {/* MEMBERS (SAFE) */}
             <Members>
-                {project.member?.map((member) => (
-                    <Avatar src={member.img}/>
+                {(project.member || []).map((member, index) => (
+                    <Avatar
+                        key={`${member.name || index}`}
+                        src={member.img}
+                    />
                 ))}
             </Members>
-            {/* <Button>View Project</Button> */}
-        </Card>
-    )
-}
 
-export default ProjectCards
+        </Card>
+    );
+};
+
+export default ProjectCards;

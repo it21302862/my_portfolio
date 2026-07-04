@@ -91,7 +91,8 @@ export const skills = [
       },
       {
         name: "Springboot",
-        image:"https://tse1.mm.bing.net/th/id/OIP.sW0MTo_jahFeijbaJlb7YQAAAA?rs=1&pid=ImgDetMain&o=7&rm=3"
+        image:
+          "https://tse1.mm.bing.net/th/id/OIP.sW0MTo_jahFeijbaJlb7YQAAAA?rs=1&pid=ImgDetMain&o=7&rm=3",
       },
       {
         name: "Express Js",
@@ -233,7 +234,7 @@ export const experiences = [
       "HTML",
       "CSS",
       "JavaScript",
-      "Oracle"
+      "Oracle",
     ],
     doc: "",
   },
@@ -265,7 +266,7 @@ export const education = [
     school: "Sri Lanka Institue Of Information Technology - SLIIT",
     date: "July 2021 - July 2025",
     grade: "3.42 CGPA",
-    desc: "I am currently in the final semester of my Bachelor's degree in Software Engineering at SLIIT, with all examinations completed and awaiting final results. As of now, I have a GPA of 3.42.Throughout my degree, I have completed core courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks.In addition to academics, I actively participated in extracurricular activities and won hackathon competitions, which helped me apply my technical knowledge to real-world problem-solving and collaborate effectively in teams."
+    desc: "I am currently in the final semester of my Bachelor's degree in Software Engineering at SLIIT, with all examinations completed and awaiting final results. As of now, I have a GPA of 3.42.Throughout my degree, I have completed core courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks.In addition to academics, I actively participated in extracurricular activities and won hackathon competitions, which helped me apply my technical knowledge to real-world problem-solving and collaborate effectively in teams.",
   },
   {
     id: 1,
@@ -295,7 +296,6 @@ export const projects = [
     image:
       "https://res.cloudinary.com/djpu5v34s/image/upload/v1753251891/Screenshot_63_xh5fid.png",
     tags: [
-
       "tailwind",
       "Eslint",
       "CI/CD",
@@ -308,6 +308,7 @@ export const projects = [
     category: "web app",
     github: "https://github.com/it21302862/music_website",
     webapp: "",
+    mediaType: "image"
   },
   {
     id: 0,
@@ -317,10 +318,18 @@ export const projects = [
       "Developed a A fully responsive and interactive movie website built with React.js and Bootstrap. Explore movies, read blogs, filter by category, and watch trailers",
     image:
       "https://res.cloudinary.com/djpu5v34s/image/upload/v1753252141/Screenshot_2025-07-17_014818_blov98.png",
-    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux" , "Bootstrap"],
+    tags: [
+      "React Js",
+      "MongoDb",
+      "Node Js",
+      "Express Js",
+      "Redux",
+      "Bootstrap",
+    ],
     category: "web app",
     github: "https://github.com/it21302862/movie_website",
     webapp: "",
+    mediaType: "image"
   },
   {
     id: 10,
@@ -334,6 +343,7 @@ export const projects = [
     category: "web app",
     github: "https://github.com/it21302862/AF-Nasa-Deploy",
     webapp: "https://af-nasa-deploy-test.vercel.app/",
+    mediaType: "image"
   },
   {
     id: 6,
@@ -343,8 +353,9 @@ export const projects = [
       "A full-stack video sharing platform built with React and Node.js, featuring JWT authentication, Firebase Google Sign-In, and MongoDB. Users can view, upload, like, and comment on videos in a responsive UI with both light and dark mode themes.",
     image:
       "https://res.cloudinary.com/djpu5v34s/image/upload/v1753257639/trends_zxntpq.png",
-    tags: ["React Js", "API", "Axios", "Node JS", "JWT" , "firebase"],
+    tags: ["React Js", "API", "Axios", "Node JS", "JWT", "firebase"],
     category: "web app",
+    mediaType: "image",
     github: "https://github.com/it21302862/Video-Sharing-App",
   },
   {
@@ -355,10 +366,23 @@ export const projects = [
       "Our final year research project is an AI-powered Learning Management System (LMS) designed to enhance the digital learning experience through intelligent features and interactive tools. The system includes automated quiz generation from study materials, mind map creation to visualize concepts, and an AI document assistant to help students understand and summarize content. It also features a background music player to support focused study sessions. The platform connects quiz results with mind maps for personalized learning feedback, allows quizzes to be updated with marks and comments, and provides performance metrics to track student progress. This project combines AI and education to deliver a smarter, more engaging learning environment.",
     image:
       "https://res.cloudinary.com/djpu5v34s/image/upload/v1753254490/Screenshot_2025-04-10_191544_nfrrb6.png",
-    tags: ["Angular", "Node js", "MongoDB", "LLM" , "Prompt Engineering" , "Adobe API", "Langchain" , "RAG", "AWS" , "Docker" , "CI/CD"],
+    tags: [
+      "Angular",
+      "Node js",
+      "MongoDB",
+      "LLM",
+      "Prompt Engineering",
+      "Adobe API",
+      "Langchain",
+      "RAG",
+      "AWS",
+      "Docker",
+      "CI/CD",
+    ],
     category: "machine learning",
     github: "https://github.com/IT21251900/LMS-research",
     webapp: "https://lms-research.vercel.app/",
+    mediaType: "image"
   },
   {
     id: 1,
@@ -379,6 +403,7 @@ export const projects = [
     category: "web app",
     github: "https://github.com/rishavchanda/Project-Management-App",
     webapp: "https://vexa-app.netlify.app/",
+    mediaType: "image"
   },
   {
     id: 5,
@@ -388,10 +413,18 @@ export const projects = [
       "This project focuses on solving the problem of plant disease classification using the Plant Village dataset(Potato images) from Kaggle. We have developed and compared four distinct Convolutional Neural Network (CNN) architectures to classify different plant diseases. This is a supervised learning task aimed at detecting and classifying plant diseases of potatos from leaf images.",
     image:
       "https://res.cloudinary.com/djpu5v34s/image/upload/v1753254707/fronetnd_application_early_blight_disease_classification_inxvhf.png",
-    tags: ["Python", "Local Storage", "Keras", "TensorFlow", "React", "Fast API"],
+    tags: [
+      "Python",
+      "Local Storage",
+      "Keras",
+      "TensorFlow",
+      "React",
+      "Fast API",
+    ],
     category: "machine learning",
     github: "https://github.com/IT21251900/DL-Project",
     webapp: "",
+    mediaType: "image"
   },
   {
     id: 2,
@@ -404,6 +437,7 @@ export const projects = [
     tags: ["Python", "Keras", "TensorFlow", "Pickle", "Kaggle"],
     category: "machine learning",
     github: "https://github.com/it21302862/Research_Chili_Village_Project",
+    mediaType: "image"
   },
   {
     id: 3,
@@ -415,7 +449,8 @@ export const projects = [
       "https://res.cloudinary.com/djpu5v34s/image/upload/v1756041043/bckground_removal_app_zjj5fb.png",
     tags: ["React", "tailwindcss", "Remove.bg API", "Google Auth Clerk"],
     category: "web app",
-    github: "https://github.com/it21302862/background_removal_website"
+    github: "https://github.com/it21302862/background_removal_website",
+    mediaType: "image"
   },
   {
     id: 8,
@@ -425,9 +460,17 @@ export const projects = [
       "The Employee Attendance Management System is a web application designed to help organizations track employee attendance efficiently. It supports role-based access with Admin and Employee users. Employees can mark check-ins and check-outs, while admins can view and manage attendance records and reports and generate charts.",
     image:
       "https://res.cloudinary.com/djpu5v34s/image/upload/v1756041518/employee_attendence_nhr6a1.png",
-    tags: ["React", "Material-UI", "tailwindcss","Node.js", "Express.js", "MongoDB"],
+    tags: [
+      "React",
+      "Material-UI",
+      "tailwindcss",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+    ],
     category: "web app",
     github: "https://github.com/it21302862/employee_management_system",
+    mediaType: "image"
   },
   {
     id: 7,
@@ -440,8 +483,74 @@ export const projects = [
     tags: ["Python", "Pygame", "NumPy", "PyTorch / TensorFlow"],
     category: "machine learning",
     github: "https://github.com/it21302862/Reinforecement_Learning_Snake_Game",
+    mediaType: "image"
   },
-  
+  {
+    id: 8,
+    title: "AI Mental Health Chatbot (RAG System)",
+    date: "Jun 2026 - Jun 2026",
+    description:
+      "A Retrieval-Augmented Generation (RAG) chatbot that answers mental health-related questions using a PDF knowledge base. It uses LangChain, ChromaDB, and Groq LLM to generate context-aware and grounded responses.",
+    image:
+      "https://res.cloudinary.com/djpu5v34s/image/upload/v1783145121/demo_jqk7fb.png",
+    tags: ["Python", "LangChain", "RAG", "ChromaDB", "Groq API", "Gradio"],
+    category: "machine learning",
+    github: "https://github.com/it21302862/AI-Mental-Health-Chatbot",
+    mediaType: "image"
+  },
+  {
+    id: 9,
+    title: "Construction Safety Detection System using YOLOv8",
+    date: "Jul 2026 - Jul 2026",
+    description:
+      "A custom YOLOv8 object detection model trained to detect safety helmets and jackets in construction environments. The system supports image and video inference for real-time workplace safety monitoring.",
+    image:
+      "https://res.cloudinary.com/djpu5v34s/video/upload/v1783146036/construction_workers_1_vwgdwt.mp4",
+    tags: [
+      "Python",
+      "YOLOv8",
+      "PyTorch",
+      "OpenCV",
+      "Computer Vision",
+      "Google Colab",
+    ],
+    category: "machine learning",
+    github: "https://github.com/it21302862/Construction-Safety-Detection-System-YOLOv8-",
+    mediaType: "video"
+  },
+  {
+    id: 10,
+    title: "Multi-Agent Travel Planner using LangGraph",
+    date: "Jun 2026 - Jul 2026",
+    description:
+      "An AI-powered multi-agent travel planner built using LangGraph, LangChain, and Groq LLM. The system breaks travel planning into multiple agents that handle city input, interest collection, and itinerary generation using a stateful workflow.",
+    image:
+      "https://res.cloudinary.com/djpu5v34s/video/upload/v1783144942/Recording_2026-07-03_111832_juvqzf.mp4",
+    tags: ["Python", "LangGraph", "LangChain", "Groq API", "Gradio"],
+    category: "machine learning",
+    github: "https://github.com/it21302862/Multi-Agent-Travel-Planner-with-LangGraph",
+    mediaType: "video"
+  },
+  {
+    id: 11,
+    title: "Med Vision AI – Multimodal Medical Image Analysis System",
+    date: "Jul 2026 - Jul 2026",
+    description:
+      "An AI-powered multimodal medical vision system that analyzes medical images using multiple Vision LLMs. Users can upload medical images, ask natural language questions, and receive structured AI-generated medical-style insights from two different vision models for comparison.",
+    image:
+      "https://res.cloudinary.com/djpu5v34s/image/upload/v1783144817/Application_mkmqmt.png",
+    tags: [
+      "Python",
+      "FastAPI",
+      "Groq API",
+      "Vision LLMs",
+      "Tailwind CSS",
+      "JavaScript",
+    ],
+    category: "machine learning",
+    github: "https://github.com/it21302862/AI-POWERED-MEDICAL-CHATBOT-MULTIMODEL-AI",
+    mediaType: "image"
+  },
 ];
 
 export const TimeLineData = [
