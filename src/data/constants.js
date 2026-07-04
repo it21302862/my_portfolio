@@ -401,7 +401,7 @@ export const projects = [
       "Prompt Engineering",
     ],
     category: "web app",
-    github: "https://github.com/rishavchanda/Project-Management-App",
+    github: "https://github.com/it21302862/Gemini_AI_App",
     webapp: "https://vexa-app.netlify.app/",
     mediaType: "image"
   },

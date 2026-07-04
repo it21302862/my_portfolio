@@ -63,14 +63,6 @@ const Desc = styled.div`
   }
 `;
 
-const Image = styled.img`
-  width: 100%;
-  object-fit: cover;
-  border-radius: 12px;
-  margin-top: 30px;
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
-`;
-
 const Label = styled.div`
   font-size: 20px;
   font-weight: 600;

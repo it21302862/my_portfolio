@@ -1,7 +1,7 @@
 {
-  "name": "rishav-chanda-portfolio",
+  "name": "sanaya-samadhi-portfolio",
   "version": "0.1.0",
-  "homepage": "https://rishavchanda.github.io",
+  "homepage": "https://github.com/it21302862",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.12.1",
