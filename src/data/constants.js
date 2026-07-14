@@ -551,6 +551,28 @@ export const projects = [
     github: "https://github.com/it21302862/AI-POWERED-MEDICAL-CHATBOT-MULTIMODEL-AI",
     mediaType: "image"
   },
+    {
+    id: 12,
+    title: "Chest X-Ray Pneumonia Detection System",
+    date: "Jul 2026 - Jul 2026",
+    description:
+      "A deep learning-based medical image classification system that detects pneumonia from chest X-ray images using transfer learning with a pretrained VGG16 convolutional neural network. The model performs image preprocessing, augmentation, and classification to identify whether an X-ray indicates pneumonia or a normal condition.",
+    image:
+      "https://res.cloudinary.com/djpu5v34s/video/upload/v1784008171/PNEUMONIA_Detection_ursy5w.mp4",
+    tags: [
+      "Python",
+      "TensorFlow",
+      "Keras",
+      "VGG16",
+      "Deep Learning",
+      "CNN",
+      "Medical AI",
+      "Streamlit",
+    ],
+    category: "machine learning",
+    github: "https://github.com/it21302862/PNEUMONIA_Detection.git",
+    mediaType: "video"
+  },
 ];
 
 export const TimeLineData = [
