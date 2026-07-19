@@ -573,6 +573,31 @@ export const projects = [
     github: "https://github.com/it21302862/PNEUMONIA_Detection.git",
     mediaType: "video"
   },
+  {
+  id: 13,
+  title: "Hotel Booking & Management System",
+  date: "Jul 2026 - Jul 2026",
+  description:
+    "A full-stack hotel booking and management platform developed using Spring Boot and Angular. The system provides a complete hotel administration dashboard for managing hotels, rooms, bookings, customers, and pricing configurations. It includes dynamic price calculation based on seasonal demand, peak and off-peak periods, room availability, early bird booking discounts, and customized pricing rules. The platform implements secure RESTful APIs, real-time booking management, automated discount eligibility, and an intuitive Angular-based admin interface to streamline hotel operations.",
+  image:
+    "https://res.cloudinary.com/djpu5v34s/image/upload/v1784433414/Screenshot_2026-07-19_084359_ex7rps.png",
+  tags: [
+    "Java",
+    "Spring Boot",
+    "Angular",
+    "MySQL",
+    "REST API",
+    "Hibernate",
+    "JPA",
+    "Admin Dashboard",
+    "Dynamic Pricing",
+    "Booking Management",
+    "Full Stack Development",
+  ],
+  category: "web app",
+  github: "https://github.com/it21302862/hotel_management_system.git",
+  mediaType: "image"
+}
 ];
 
 export const TimeLineData = [
